@@ -1,0 +1,123 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	color: #000;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.container
+{
+	width: 85%;
+	margin: 5px auto;
+}
+
+.head
+{
+	background-color: #ff6600;
+	width: 100%;
+}
+.head table
+{
+	width: 100%;
+}
+
+.logo
+{
+	width: 18px;
+	padding-right: 4px;
+}
+
+
+.logo img
+{
+	border: 1px solid #fff;
+	padding: 3px;
+}
+
+.pagetop
+{
+	font-size: 10pt;
+	line-height: 12px;
+	color: #222;
+	height: 10px;
+}
+
+.pagetop a
+{
+	text-decoration: none;
+}
+
+.pagetop span a::after
+{
+	content: " | ";
+}
+
+.pagetop span a:last-child::after
+{
+	content: "";
+}
+
+.pagetop span b a::after
+{
+	content: "";
+}
+
+.hackername
+{
+	margin-right: 5px;
+}
+
+.login
+{
+	text-align: right;
+	padding-right: 5px;
+}
+.login a
+{
+	text-decoration: none;
+}
+
+#pagespace
+{
+	height: 10px;
+}
+
+.item
+{
+	background-color: #F6F6EF;
+	padding-left: 5px;
+}
+
+
+.subtext span
+{
+	color: #828282;
+	padding-left: 40px;
+}
+
+.subtext td 
+{
+	font-size: 7pt;
+	padding-bottom: 10px;
+}
+
+.w-5
+{
+	display: none;
+}
+.siteUrl
+{
+	font-size: 8pt;
+	color: #828282;
+}
+
+.siteUrl a, .subtext a
+{
+	text-decoration: none;
+}
+
+.siteUrl a:hover, .subtext a:hover
+{
+	text-decoration: underline;
+}
